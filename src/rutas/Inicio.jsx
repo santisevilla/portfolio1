@@ -1,9 +1,12 @@
 import React from "react";
+import Navegacion from "../componentes/Navegacion/Navegacion";
+import HomeImg from "../componentes/HomeImg/HomeImg";
 
 const Inicio = () => {
     return (
         <div>
-            <h1>Inicio</h1>
+            <Navegacion />
+            <HomeImg />
         </div>    
     )
 }
