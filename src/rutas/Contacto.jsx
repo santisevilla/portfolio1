@@ -7,7 +7,7 @@ const Contacto = () => {
   return (
     <div>
       <Navegacion />
-      <ProjectImg heading="CONTACTO" text="A continuación dejo mis datos de contacto!" />
+      <ProjectImg heading="CONTACTO" text="Te dejo mis datos por si quieres contactarme!" />
       <Contact />
     </div>
   );
