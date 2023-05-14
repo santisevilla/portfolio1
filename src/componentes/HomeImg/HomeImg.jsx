@@ -2,7 +2,6 @@ import "./HomeImg.css";
 import React from "react";
 import Home from "../../imagenes/fondo.jpg";
 import { Link } from "react-router-dom";
-import Me from "../../imagenes/yo.jpg"
 
 const HomeImg = () => {
   return (
@@ -11,9 +10,6 @@ const HomeImg = () => {
         <img className="into-img" src={Home} alt="Home" />
       </div>
       <div className="content">
-        <div className="me">
-          <img className="me1" src={Me} />
-        </div>
         <p>!Hola! Mi nombre es Santiago Sevilla</p>
         <h1>Full Stack Developer</h1>
         <div>

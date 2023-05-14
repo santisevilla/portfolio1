@@ -7,7 +7,7 @@ const SobreMi = () => {
     return (
         <div>
             <Navegacion />
-            <ProjectImg heading="SOBRE MÍ" text="Este es el sobre mí" />
+            <ProjectImg heading="SOBRE MÍ" text="Para que me conozcas un poco más!" />
             <About />
         </div>
     );
