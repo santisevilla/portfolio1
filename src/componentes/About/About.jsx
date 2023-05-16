@@ -1,6 +1,7 @@
 import React from 'react';
 import "./About.css"
 import Me from "../../imagenes/yo.jpg"
+import { Link } from 'react-router-dom';
 
 const About = () => {
     return (
@@ -27,6 +28,14 @@ const About = () => {
                     <br/>
                     Si quieres saber más de mí, puedes conectar conmigo por Linkedin o mandarme un correo.
                 </h3>
+            </div>
+            <div className='buttonAbout'>
+                <Link  to="/sdfsd" className='btn'>
+                    VER CV
+                </Link>
+                <Link  to="/contacto" className='btn'>
+                    CONTACTO
+                </Link>
             </div>
         </div>
     );

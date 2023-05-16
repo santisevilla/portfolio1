@@ -1,7 +1,6 @@
 import "./HomeImg.css";
 import React from "react";
 import Home from "../../imagenes/fondo.jpg";
-import BotonDescargar from "../BotonDescargar";
 import { Link } from "react-router-dom";
 
 const HomeImg = () => {
@@ -23,7 +22,7 @@ const HomeImg = () => {
           <Link to="/contacto" className="btn">
             Contacto
           </Link>
-          <BotonDescargar url="" filename="CV - Santiago Sevilla.pdf" className="btn"/>
+          <a href="CV - Santiago Sevilla.pfg" className="btn" target="_blank">CV</a>
         </div>
       </div>
     </div>

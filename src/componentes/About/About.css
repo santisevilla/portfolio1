@@ -28,3 +28,11 @@
     align-items: center;
     justify-content: center;
 }
+
+.buttonAbout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    margin-right: 80px;
+}

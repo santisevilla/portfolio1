@@ -1,15 +1,14 @@
 .project-card {
     border: 2px solid orange;
     margin: 5%;
-    margin-left: 45%;
     border-radius: 2.1rem;
     width: 400px;
     height: 500px;
-    display: grid;
 }
 
 .card-container {
     display: flex;
+    
 }
 
 .img-project {
@@ -28,7 +27,7 @@
     color: white;
 }
 
-.project-details {
+.pro-details {
     text-align: center;
     color: white;
 }

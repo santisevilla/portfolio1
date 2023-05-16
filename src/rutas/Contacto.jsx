@@ -16,8 +16,8 @@ const Contacto = () => {
       <div className="card-container">
         <Contact imageSrc={Telefono} title="Teléfono" description="2612574104" />
         <Contact imageSrc={Correo} title="Email" description="santisevilla@gmail.com" />
-        <a href="https://www.linkedin.com/in/santiago-sevilla/" target="blank"><Contact imageSrc={Linkedin} title="Linkedin" description="Santiago Sevilla" /></a>
-        <a href="https://github.com/santisevilla" target="blank"><Contact imageSrc={GitHub} title="GitHub" description="santisevilla" /></a>
+        <a href="https://www.linkedin.com/in/santiago-sevilla/" target="_blank"><Contact imageSrc={Linkedin} title="Linkedin" description="Santiago Sevilla" /></a>
+        <a href="https://github.com/santisevilla" target="_blank"><Contact imageSrc={GitHub} title="GitHub" description="santisevilla" /></a>
       </div>
     </div>
   );
