@@ -1,30 +1,14 @@
 import React from 'react'
 import "./Contact.css"
-import Telefono from "../../imagenes/telefono.png"
 
-const Contact = () => {
+const Contact = ({ imageSrc, title, description }) => {
   return (
-    <div className='card-containter'>
-      <div className='card'>
-        <img src={Telefono} alt="img" />
-        <h2>Teléfono</h2>
-        <h3>2612574104</h3>
-      </div>
-      {/* <div className='card'>
-        <img src={Telefono} alt="img" />
+    <div className="card">
+      <img className='imgBackground' src={imageSrc} alt="Card" />
+      <div className="card-content">
         <h2>{title}</h2>
-        <h3>{description}</h3>
+        <p>{description}</p>
       </div>
-      <div className='card'>
-        <img src={Telefono} alt="img" />
-        <h2>{title}</h2>
-        <h3>{description}</h3>
-      </div>
-      <div className='card'>
-        <img src={Telefono} alt="img" />
-        <h2>{title}</h2>
-        <h3>{description}</h3>
-      </div> */}
     </div>
   )
 }
