@@ -1,5 +1,5 @@
 .cardd {
-  border: 1px solid orange;
+  border: 2px solid orange;
   margin: 5%;
   margin-left: 45%;
   border-radius: 2.1rem;
@@ -14,7 +14,7 @@
   display: flex;
   justify-content: center;
   text-align: center;
-  border-bottom: 1px solid orange;
+  border-bottom: 2px solid orange;
   border-top-left-radius: 2rem;
   border-top-right-radius: 2rem;
 }

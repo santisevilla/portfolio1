@@ -3,7 +3,7 @@ import Navegacion from "../componentes/Navegacion/Navegacion";
 import ProjectImg from "../componentes/ProjectImg/ProjectImg";
 import Contact from "../componentes/Contacto/Contact";
 import Telefono from "../imagenes/telefono.png"
-import Correo from "../imagenes/correo.png"
+import Correo from "../imagenes/correo.jpg"
 import Linkedin from "../imagenes/linkedin.jpg"
 import GitHub from "../imagenes/github.png"
 

@@ -1,0 +1,44 @@
+.project-card {
+    border: 2px solid orange;
+    margin: 2%;
+    margin-left: 45%;
+    border-radius: 2.1rem;
+    width: 400px;
+    height: 500px;
+    display: grid;
+}
+
+.card-container {
+    display: flex;
+}
+
+.img-project {
+    width: 395px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 2px solid orange;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.project-title {
+    text-align: center;
+    color: white;
+}
+
+.project-details {
+    text-align: center;
+    color: white;
+}
+
+.pro-btns {
+    margin: 5%;
+    padding: 5%;
+    text-align: center;
+}
+
+.btn {
+    margin-left: 5%
+}
