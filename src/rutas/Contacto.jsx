@@ -13,10 +13,12 @@ const Contacto = () => {
     <div>
       <Navegacion />
       <ProjectImg heading="CONTACTO" text="Te dejo mis datos por si quieres contactarme!" />
-      <Contact imageSrc={Telefono} title="Teléfono" description="2612574104"/>
-      <Contact imageSrc={Correo} title="Email" description="santisevilla@gmail.com"/>
-      <Contact imageSrc={Linkedin} title="Linkedin" description="Santiago Sevilla"/>
-      <Contact imageSrc={GitHub} title="GitHub" description="santisevilla"/>
+      <div className="card-container">
+        <Contact imageSrc={Telefono} title="Teléfono" description="2612574104" />
+        <Contact imageSrc={Correo} title="Email" description="santisevilla@gmail.com" />
+        <a href="https://www.linkedin.com/in/santiago-sevilla/" target="blank"><Contact imageSrc={Linkedin} title="Linkedin" description="Santiago Sevilla" /></a>
+        <a href="https://github.com/santisevilla" target="blank"><Contact imageSrc={GitHub} title="GitHub" description="santisevilla" /></a>
+      </div>
     </div>
   );
 };
