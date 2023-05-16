@@ -11,7 +11,7 @@ const HomeImg = () => {
         <img className="into-img" src={Home} alt="Home" />
       </div>
       <div className="content">
-        <p>!Hola! Mi nombre es Santiago Sevillaaaa</p>
+        <p>!Hola! Mi nombre es Santiago Sevilla</p>
         <h1>Full Stack Developer</h1>
         <div>
           <Link to="/sobremi" className="btn">
