@@ -8,10 +8,7 @@ const Contacto = () => {
     <div>
       <Navegacion />
       <ProjectImg heading="CONTACTO" text="Te dejo mis datos por si quieres contactarme!" />
-      <Contact title="Teléfono" description="2612574104"/>
-      <Contact title="Email" description="santisevilla.9@gmail.com"/>
-      <Contact title="Linkedin" description="Santiago Sevilla"/>
-      <Contact title="GitHub" description="santisevilla"/>
+      <Contact />
     </div>
   );
 };
