@@ -8,6 +8,10 @@
   display: grid;
 }
 
+.card-container {
+  display: flex;
+}
+
 .imgBackground {
   width: 358px;
   height: 250px;
@@ -18,19 +22,6 @@
   border-top-left-radius: 2rem;
   border-top-right-radius: 2rem;
 }
-
-.card-container {
-  display: flex;
-}
-
-/* .card {
-  width: 200px;
-  border: 1px solid orange;
-  border-radius: 2rem;
-  padding: 16px;
-  margin-right: 16px;
-  margin-left: 16px;
-} */
 
 .card:last-child {
   margin-right: 0;
