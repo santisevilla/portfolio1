@@ -1,6 +1,6 @@
 import pro1 from "../imagenes/pro1.jpg";
 import pro2 from "../imagenes/linkedin.jpg";
-import pro3 from "../imagenes/linkedin.jpg";
+import pro3 from "../imagenes/TodoApp.png";
 import pro4 from "../imagenes/linkedin.jpg";
 
 
