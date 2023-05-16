@@ -2,6 +2,7 @@ import "./HomeImg.css";
 import React from "react";
 import Home from "../../imagenes/fondo.jpg";
 import { Link } from "react-router-dom";
+import CV from "../../imagenes/cv.pdf"
 
 const HomeImg = () => {
   return (
@@ -22,7 +23,7 @@ const HomeImg = () => {
           <Link to="/contacto" className="btn">
             Contacto
           </Link>
-          <a href="CV - Santiago Sevilla.pfg" className="btn" target="_blank">CV</a>
+          <a href={CV} className="btn" target="_blank">CV</a>
         </div>
       </div>
     </div>

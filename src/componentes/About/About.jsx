@@ -1,6 +1,7 @@
 import React from 'react';
 import "./About.css"
 import Me from "../../imagenes/yo.jpg"
+import CV from "../../imagenes/cv.pdf"
 import { Link } from 'react-router-dom';
 
 const About = () => {
@@ -30,9 +31,7 @@ const About = () => {
                 </h3>
             </div>
             <div className='buttonAbout'>
-                <Link  to="/sdfsd" className='btn'>
-                    VER CV
-                </Link>
+                <a href={CV} className='btn' target='_blank'> CV </a>
                 <Link  to="/contacto" className='btn'>
                     CONTACTO
                 </Link>
