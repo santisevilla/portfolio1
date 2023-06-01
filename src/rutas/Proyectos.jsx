@@ -7,7 +7,7 @@ const Proyectos = () => {
     return (
         <div>
             <Navegacion />
-            <ProjectImg heading="PROYECTOS" text="Aquí hay algunos proyectos realizados por mí" />
+            <ProjectImg heading="PROYECTOS" text="Algunos proyectos realizados por mí" />
             <div className="card-container"> 
                 <Work/>
             </div>

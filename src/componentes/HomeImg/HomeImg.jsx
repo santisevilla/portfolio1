@@ -2,7 +2,7 @@ import "./HomeImg.css";
 import React from "react";
 import Home from "../../imagenes/fondo.jpg";
 import { Link } from "react-router-dom";
-import CV from "../../imagenes/cv.pdf"
+import CV from "../../imagenes/cv1.pdf"
 
 const HomeImg = () => {
   return (

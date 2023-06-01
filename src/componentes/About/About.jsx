@@ -1,7 +1,7 @@
 import React from 'react';
 import "./About.css"
 import Me from "../../imagenes/yo.jpg"
-import CV from "../../imagenes/cv.pdf"
+import CV from "../../imagenes/cv1.pdf"
 import { Link } from 'react-router-dom';
 
 const About = () => {
